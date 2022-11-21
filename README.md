@@ -1,2 +1,2 @@
-# react-fetch-and-search
-Created with CodeSandbox
+# React fetch and search
+a simple fetch and displaying users in page
