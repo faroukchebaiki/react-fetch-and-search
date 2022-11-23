@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+.mycard{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    width: 15vw;
+    max-width: 100%;
+    min-height: 200px;
+}
+.list{
+    /* help i need flexible cards  */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
