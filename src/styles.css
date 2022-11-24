@@ -3,7 +3,11 @@
   text-align: center;
 }
 body {
-  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  //background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    background: #010B44;
+    background: -webkit-linear-gradient(top left, #010B44, #0F8E7A);
+    background: -moz-linear-gradient(top left, #010B44, #0F8E7A);
+    background: linear-gradient(to bottom right, #010B44, #0F8E7A);
 }
 .mycard{
     background-color: #fff;
@@ -18,7 +22,6 @@ body {
     min-width: 300px ;
 }
 .list{
-    /* help i need flexible cards  */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
