@@ -1,4 +1,5 @@
 import Search from "./search";
+import Cardlist from "./cardlist";
 export default function Top() {
   return (
     <section className="hero" style={{ borderBottom: "1px solid white"}}>
