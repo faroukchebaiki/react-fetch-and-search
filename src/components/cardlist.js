@@ -1,15 +1,12 @@
 import Card from "./card";
-export default function Cardlist() {
+export default function Cardlist(props) {
   return (
     <div className="list">
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        {props.peoples.map(user => {
+          return (
+              <Card key={user.id} user={user}/>
+          );
+        })}
 
     </div>
   );
