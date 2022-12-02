@@ -7,6 +7,7 @@ class App extends Component {
         super()
         this.state = {
             peoples: [],
+            searchField: ''
         }
     }
 
@@ -16,10 +17,16 @@ class App extends Component {
             .then(users => {this.setState({ peoples: users})});
     }
     render() {
+        const {peoples,searchField} = this.state;
+        const filteredPeoples = peoples.filter(people =>
+            people.name.toLowerCase().includes(searchField.toLowerCase()))
         return (
                 <section>
-                    <Top searchChange={this.onSearchChange} />
-                    <Cardlist peoples={this.state.peoples} />
+                    <Top
+                        searchChange='Search users'
+                        handelChange={e => this.setState({ searchField: e.target.value })}
+                    />
+                    <Cardlist peoples={filteredPeoples} />
                 </section>
         );
     }
