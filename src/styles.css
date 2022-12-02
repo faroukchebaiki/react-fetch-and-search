@@ -3,7 +3,6 @@
   text-align: center;
 }
 body {
-  //background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
     background: #010B44;
     background: -webkit-linear-gradient(top left, #010B44, #0F8E7A);
     background: -moz-linear-gradient(top left, #010B44, #0F8E7A);
@@ -27,4 +26,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     min-height: 100vh;
+}
+::placeholder {
+    color: red;
 }

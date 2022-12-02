@@ -29,5 +29,5 @@ npm run eject
 
 ## Licence
 
-The MIT License (MIT), see [LICENCE.md](../LICENCE.md)
+The MIT License (MIT), see [LICENCE.md](./LICENCE.md)
 Copyright (c) 2022 Farouk Chebaiki
