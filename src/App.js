@@ -10,7 +10,9 @@ class App extends Component {
             searchField: ''
         }
     }
-
+    handleChange =(e) =>{
+        this.setState({ searchField: e.target.value })
+    }
     componentDidMount() {
         fetch('https://jsonplaceholder.typicode.com/users')
             .then(response=> response.json())
@@ -24,7 +26,7 @@ class App extends Component {
                 <section>
                     <Top
                         searchChange='Search users'
-                        handelChange={e => this.setState({ searchField: e.target.value })}
+                        handelChange={this.handleChange}
                     />
                     <Cardlist peoples={filteredPeoples} />
                 </section>
