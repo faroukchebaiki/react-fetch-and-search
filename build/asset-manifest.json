@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-fetch-and-search/static/css/main.7872cd34.css",
+    "main.js": "/react-fetch-and-search/static/js/main.dc3e9a93.js",
+    "index.html": "/react-fetch-and-search/index.html",
+    "main.7872cd34.css.map": "/react-fetch-and-search/static/css/main.7872cd34.css.map",
+    "main.dc3e9a93.js.map": "/react-fetch-and-search/static/js/main.dc3e9a93.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7872cd34.css",
+    "static/js/main.dc3e9a93.js"
+  ]
+}
