@@ -1,7 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 
-import App from "./App";
+import App from "./App.jsx";
 import "bulma/css/bulma.min.css";
 import "./styles.css";
 
