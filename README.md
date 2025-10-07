@@ -8,6 +8,8 @@ React Fetch & Search is a modern single-page React app that loads sample people 
 - 🎨 Bulma design system plus refreshed custom theme
 - 🚀 Ready-to-ship GitHub Pages deployment using `gh-pages`
 
+**Live Demo:** https://faroukchebaiki.github.io/react-fetch-and-search/
+
 ## Getting Started
 ```bash
 git clone https://github.com/faroukChebaiki/react-fetch-and-search.git
