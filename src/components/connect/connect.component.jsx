@@ -9,3 +9,5 @@ class Connect extends React.Component {
     );
   }
 }
+
+export default Connect;
