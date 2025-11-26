@@ -1,5 +1,6 @@
 import Search from "./Search";
 
+// Hero-style header that introduces the app and hosts the search control.
 const Header = ({ onSearchChange, placeholder, searchTerm }) => (
   <header className="hero app-hero">
     <div className="hero-body">

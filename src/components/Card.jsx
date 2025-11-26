@@ -1,3 +1,4 @@
+// Normalize website URLs by guaranteeing a protocol prefix or returning null.
 const normalizeWebsite = (website) => {
   if (!website) {
     return null;
@@ -10,9 +11,11 @@ const normalizeWebsite = (website) => {
   return `https://${website}`;
 };
 
+// Presentation component that renders a single user's details in a Bulma card.
 const Card = ({ user }) => {
   const { name, username, email, phone, website, company, address } = user;
 
+  // Derived display values to keep JSX readable.
   const websiteUrl = normalizeWebsite(website);
   const companyName = company?.name ?? "Independent";
   const locationParts = [address?.city, address?.suite].filter(Boolean);

@@ -8,6 +8,7 @@ import "./styles.css";
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 
+// Bootstraps the React app into the DOM with development StrictMode enabled.
 root.render(
   <StrictMode>
     <App />

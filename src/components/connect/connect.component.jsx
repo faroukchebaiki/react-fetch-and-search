@@ -1,5 +1,6 @@
 import React from "react";
 
+// Placeholder class-based component kept for potential future routes/sections.
 class Connect extends React.Component {
   render() {
     return (

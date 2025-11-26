@@ -1,3 +1,4 @@
+// Controlled search input used to filter the user list.
 const Search = ({ onChange, placeholder, value }) => (
   <div className="container is-max-desktop search-container">
     <input
